@@ -1,0 +1,78 @@
+/* Defines global definitions and variables */
+:root {
+	/* Color */
+	--clr-aqua: #26bbc6; /*icons illustrations*/
+	--clr-aqua-drk: #01bbc8; /*button*/
+	--clr-aqua-lt: #33c8d3; /*button hover*/
+	--clr-blue: #ccf1f4; /*bg*/
+	--clr-blue-drk: #1b1443; /*main text*/
+	--clr-blue-lt: #e5f8f9; /*bg*/
+	--clr-grey: #787393; /* section title text hrs*/
+	--clr-grey-drk: #4a446e; /*alt text*/
+	--clr-grey-lt: #d2d0db; /*alt button footer text*/
+	--clr-grey-md: #a5a1b7; /*alt button hover*/
+	--clr-white: #fff; /*bg color*/
+
+	/* Spacing Units*/
+	--su1: 4px;
+	--su2: 8px;
+	--su3: 12px;
+	--su4: 16px;
+	--su5: 20px;
+	--su6: 24px;
+	--su7: 32px;
+	--su8: 40px;
+	--su9: 48px;
+	--su10: 56px;
+	--su11: 64px;
+	--su12: 72px;
+	--su13: 80px;
+	--su14: 120px;
+	--su15: 160px;
+
+	/* Type */
+--font: font-family: canada-type-gibson, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+
+	/* Weights */
+	--book: 300;
+	--regular: 400;
+	--medium: 500;
+	--semibold: 600;
+
+	/* Line Heights */
+	--lh-12: 6.75rem; /*108px*/
+	--lh-11: 5.75rem; /*92px*/
+	--lh-10: 4.75rem; /*76px*/
+	--lh-9: 3.75rem; /*60px*/
+	--lh-8: 3.25rem; /*52px*/
+	--lh-7: 2.75rem; /*44px*/
+	--lh-6: 2.25rem; /*36px*/
+	--lh-5: 2rem; /*32px*/
+	--lh-4: 1.75rem; /*28px*/
+	--lh-3: 1.5rem; /*24px*/
+	--lh-2: 1.25rem; /*20px*/
+	--lh-1: 1rem; /*16px*/
+
+	/* Font Sizes */
+	--fs-12: 5.25rem; /*84px*/
+	--fs-11: 4.5rem; /*72px*/
+	--fs-10: 3.75rem; /*60px*/
+	--fs-9: 3rem; /*48px*/
+	--fs-8: 2.5rem; /*40px*/
+	--fs-7: 2.125rem; /*34px*/
+	--fs-6: 1.75rem; /*28px*/
+	--fs-5: 1.5rem; /*24px*/
+	--fs-4: 1.25rem; /*20px*/
+	--fs-3: 1rem; /*16px*/
+	--fs-2: 0.875rem; /*14px*/
+	--fs-1: 0.75rem; /*12px*/
+
+	/* Animation Timing Functions */
+	--tf-slow: cubic-bezier(0.35, 0.0, 0.5, 1.0);
+	--tf-quick: cubic-bezier(0.35, 0.0, 0.25, 1.0);
+	--tf-ent: cubic-bezier(0.0, 0.0, 0.1, 1.0);
+	--tf-ext: cubic-bezier(0.35, 0.0, 0.8, 1.0);
+	--tf-spirited: cubic-bezier(0.35, 1.3, 0.3, 1.0);
+	--tf-spirited-ent: cubic-bezier(0.15, 1.3, 0.3, 1.0);
+	--tf-spirited-ext: cubic-bezier(0.7, -0.1, 0.6, 0.1);
+}

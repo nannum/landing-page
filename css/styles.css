@@ -1,0 +1,3 @@
+/* Links all style sheets */
+@import url(config.css);
+@import url(base.css);
